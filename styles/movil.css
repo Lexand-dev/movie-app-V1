@@ -1,0 +1,6 @@
+@media (min-width: 580px) {
+  .home_content {
+    display: grid;
+    grid-template-rows: 60px 80px 300px 150px 60px 380px 150px ;
+  }
+}

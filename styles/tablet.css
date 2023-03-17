@@ -1,0 +1,7 @@
+@media (min-width: 1024px) {
+  .home_content {
+    display: grid;
+    grid-template-columns:500px 1fr;
+    grid-template-rows: 60px 80px 300px 150px 60px 190px 150px ;
+  }
+}

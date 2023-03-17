@@ -1,0 +1,40 @@
+:root {
+  --icon-grey: #b0b3bc;
+  --select-grey-icon: #b0b3bc6c;
+  --background: #f2f7fd
+
+}
+
+.home_content .header .header--background {
+  background: rgba(128, 0, 128, 0.459);
+}
+.header {
+  width: 100%;
+}
+.header .header__wrap {
+  display: flex;
+}
+.header .header__nav {
+  display: flex;
+  list-style: none;
+  min-width: 500px;
+  margin: 0 auto;
+  justify-content: space-evenly;
+}
+.header .header__nav li {
+  padding-right: 10px;
+}
+.header .header__nav li a{
+  text-decoration: none;
+  color: var(--icon-grey);
+  font-weight: 400;
+  
+}
+
+.header .header__cfg {
+  min-width: 400px;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 auto;
+}
+
