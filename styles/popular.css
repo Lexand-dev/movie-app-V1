@@ -1,0 +1,35 @@
+:root {
+  --icon-grey: #909296;
+  --select-grey-icon: #b0b3bc6c;
+  --background: #f2f7fd;
+  --title: #676c72;
+  --red-button: #db2227
+
+}
+
+.home_content .popular {
+  display: flex;
+  flex-direction: column;
+  margin: 0 12px
+}
+.home_content .popular .popular_title {
+  color: var(--icon-grey);
+  padding-bottom: 18px;
+}
+
+.home_content .popular .moviePreview .movie_slider-pop{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 230px));
+  grid-template-rows: 1fr;
+  justify-content: space-between;
+  
+
+}
+
+
+.popular .moviePreview .movie_slider-pop .movie img {
+  width: 220px;
+  height: 322px;
+  border-radius: 24px;
+  
+}

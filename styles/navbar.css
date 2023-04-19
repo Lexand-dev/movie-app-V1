@@ -6,35 +6,63 @@
 }
 
 .home_content .header .header--background {
-  background: rgba(128, 0, 128, 0.459);
-}
-.header {
+  background: var(--background);
   width: 100%;
 }
+/* .header {
+  width: 100%;
+} */
 .header .header__wrap {
   display: flex;
+  align-items: center;
+  /* width: auto; */
 }
 .header .header__nav {
   display: flex;
   list-style: none;
-  min-width: 500px;
-  margin: 0 auto;
-  justify-content: space-evenly;
+  /* min-width: 500px */;
+  margin: 0 20px 0 15px;
+  justify-items: flex-start;
+  
 }
 .header .header__nav li {
-  padding-right: 10px;
+  margin-right: 48px;
+  
 }
 .header .header__nav li a{
   text-decoration: none;
   color: var(--icon-grey);
-  font-weight: 400;
+  font-weight: 500;
   
 }
+.header .header__nav li a:hover {
+  color: black;
+}
+
 
 .header .header__cfg {
   min-width: 400px;
   display: flex;
-  justify-content: space-evenly;
-  margin: 0 auto;
+  justify-content: space-between;
+  margin: 0 40px 0 auto;
+  align-items: center;
+}
+.header .header__cfg .searchInput {
+  height: 25px;
+  border: 1px solid var(--icon-grey);
+  border-radius: 24px;
+  display: flex;
+  align-items: center;
+}
+.header .header__cfg .searchInput i {
+  margin: 0 8px;
+}
+.header .header__cfg .searchInput input {
+  background-color: transparent;
+  border: none;
+  color: black;
+  font-size: medium;
+  font-weight: 400;
+  outline: none;
 }
 
